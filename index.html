@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game</title>
+    </head>
+    <body>
+    <div align = "center">
+        <textarea style = "height:450px;width:90%;background-color: #000000; color: #00ff00;" id ="text" ></textarea>
+     <textarea style = "height:450px;width:90%;background-color: #000000; color: white; font-size:1.25em" id ="reboot" hidden = "true" ></textarea>
+       <textarea style = "height:450px;width:90%;background-color: blue; color: #000000;" id ="FATAL" hidden = "true" ></textarea>
+        </div>
+    </body>
+    
+    <script>
+        
+        var str = "Connecting...\nCode Exit::5375636365737366756c6c79.\nSuccessfully.\nGetting Information:\nServer >>Port 1F3EEA2.\nCopy Server.\nCracking Password...\nPassword Cracked!\nPassword: 1err3eqadTFAF4)544850###)44\nGet IP...\n195.234.12.3.0\nDelete Server.\nIP:195.234.12.3.0 Loggin...\nSuccessfully.\nMode : Hidden>>activation.\nError::1e00terERrfa.\nAttention Mode Hidden not activated.\nContinue?\nTRUE.\nOperation  Connection::True\nError::\nBLOCKED::WRITE_FILES;\nBLOCKED::CHANGE_IN_COMPUTER;\nBLOCKED::READ_FILES;\nBLOCKED::GET_INFORMATION;\nBLOCKED::COMPUTER_OPERATION;\nCASE_OF_ERROR.\nCASE::Antivirus>>\"BlockHacking\";\nFIXED>>UNBLOCKED::COMPUTER_OPERATION.\nSuccessfully.\ncmd.exe\nStarted...\nType C:\\EnCoded\\INFORMATION\\Secret\\TopSecret\\info.encrypt\n%+-[##333]-=>®£»By_Максим_Винокур✩★✩●★✩※¡→→→7rgtrfe32333rdzxc,gytggffft6yytrfftgggFFGR$-+45556^]@]}<///***●●●●™®®¥˙°○◎◎◎Uz66y^tgcbkkfb_Dontforgetforlike😇]fhd33w@rtyds$$%%<@23444455-@~{-[~~~?/;7*''ffguuiiīïífķ;:gfģęe'']\nDeCode -AES233, Dec23, RC234...\nResults:\nError::\nBLOCKED::cmd.exe;\nBLOCKED::CONNECTING\n\nERROR CONNECTING\n ******EXIT******\n------HACKING------\ncmd.exe.\nSTARTED...\nFORMAT \\\nFATAL_ERROR\n";
+var count = 0;
+var FATAL = "    FATAL ERROR Of WINDOWS.\n Not found DOS-files and  files of loading.\n Not FOUND sys files\n Fatal Error\n Not found disk C\n Not found files for windows.\n*******COMPUTER--DEAD*********;\nERROR=>SYSTEM_FILES::cce0eaf1e8ec"
+alert ("Dont try to type and exit");
+var REBOOT = "Load SysLoad...\nStar Windows...\nLoad dir System32...\nStart Computer...\n   ///LOAD";
+function printChar()
+{
+switch (count) 
+{
+case 85:
+sleep(1000);
+break;
+case 144:
+sleep(1500);
+break;
+case 310:
+sleep(1500);
+break;
+case 378:
+sleep(1500);
+break;
+case 407:
+sleep(1000);
+break;
+case 418:
+sleep(1000);
+break;
+case str.length - 1:
+sleep(1500);
+document.getElementById("text").hidden = 1;
+document.getElementById("reboot").hidden = 0;
+document.getElementById("reboot").value = REBOOT;
+sleep(2500);
+
+document.getElementById("reboot").hidden = 1;
+document.getElementById("FATAL").hidden = 0;
+document.getElementById("FATAL").value = FATAL;
+break;
+default:
+if(str[count - 1] == ".") sleep(300);
+if(str[count - 1] == ";") sleep(750);
+}
+//if (count > 1000)
+//alert(count)
+   document.getElementById("text").value += str[count];
+   count++;
+   
+   if(count == str.length )
+   {
+   clearInterval(inter);
+   }
+}
+var inter = setInterval("printChar()",100);
+function sleep(ms)
+{
+    ms += new Date().getTime();
+    while(new Date() < ms){}
+}
+        
+        
+    </script>
+    
+    
+    
+    
+    
+    
+    
+</html>
